@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(84, 188, 230);
+    font-weight: bold;
+}
+
+.choices{
+    margin-bottom: 30px;
+}
+
+.choices button{
+    font-size: 100px;
+    min-width: 160px;
+    margin: 0px 10px;
+    border-radius: 250px;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.choices button:hover{
+    background-color: pink;
+}
+
+#playerDisplay{
+    font-size: 30px;
+    color: palevioletred;
+}
+
+#computerDisplay{
+    font-size: 30px;
+    color: palevioletred;
+}
